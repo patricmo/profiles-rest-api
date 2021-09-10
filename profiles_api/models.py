@@ -48,6 +48,6 @@ class UserProfile(AbstractBaseUser, PermissionsMixin):
         """retreive short name of user"""
         return self.name
 
-    def __str__(str):
+    def __str__(self):
         """return default string of user"""
         return self.email
